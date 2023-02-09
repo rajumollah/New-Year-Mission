@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+/* header style */
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image/banner/banner21.png);
+    background-size: cover;
+    background-position: center;
+}
+/*All Thinks Are Possible If You believe*/
+.header-text{
+    position: absolute;
+    width: 525px;
+    height: 228px;
+    right: 845px;
+    top: 186px;
+    font-weight: 600;
+    font-size: 30px;
+}
+.paragraph{
+    position: absolute;
+    width: 494px;
+    height: 78px;
+    right: 876px;
+    top: 420px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.fast-btn{
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    right: 1210px;
+    top: 538px;
+    border-radius: 5px;
+    color: white;
+    background:#fd6E0A;
+    font-size: large;
+    text-decoration: none;
+}
+/* My failures of previous year start */
+.container{
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+
+}
+.banner-title{
+    margin-left: 100px;
+}
+.paragraph-title{
+    margin-top: 20px;
+}
+.items{
+    list-style: lower-greek;
+    margin-top: 18px;
+    background-repeat: no-repeat;
+}
+.plans{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.plans-item{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.extra{
+    margin: 150px 150px;
+    height: 300px;
+    background-image: url(image/gradient2.png),url(image/watch.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left right,left right;
+}
+.contant{
+    position: absolute;
+    margin-left: 30px;
+    color: white;
+    margin-top: 40px;
+    font-weight: 100;
+    font-size: 30px;
+}
+.extra-btn{
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    margin-top: 40px;
+    border-radius: 5px;
+    color:black;
+    background:white;
+    font-weight: 500;
+    font-size: large;
+    text-decoration: none;
+
+}
+.end{
+    height: 550px;
+    width: 1430px;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    
+}
+.section-title{
+    
+    width: 50%;
+}
+.Subscribe{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    
+}
+
+
+
+
+
+
+
