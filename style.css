@@ -104,26 +104,64 @@
     text-decoration: none;
 
 }
+/* FOOTER */
 .end{
     height: 550px;
-    width: 1430px;
+    /* width: 1430px; */
+    width: 100%;
+    padding-top: 250px;
     color: white;
     background-color: black;
     display: flex;
-    align-items: center;
-    padding: 20px 30px;
-    
+    /* align-items: center;  */
+    justify-content: space-evenly;
 }
 .section-title{
     
-    width: 50%;
+    width: 40%;
 }
-.Subscribe{
+.section-title h1{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+.section-title .first-child{
+    margin: 16px 0 30px;
+}
+/* .Subscribe{
     width: 50%;
     display: flex;
     align-items: center;
     margin-right: 50px;
     
+} */
+
+/* Subscribe part */
+/* what I did */
+.Subscribe h1{
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+.Subscribe input{
+    width: 325px;
+    height: 30px;
+    margin: 30px 0 16px;
+    padding: 22px 10px;
+    font-size: 20px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    color: #F3F3F3;
+    background-color: transparent;
+}
+.Subscribe button{
+    width: 170px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    background: #FFFFFF;
+    color: #F15B22;
+    border-radius: 8px;
 }
 
 
